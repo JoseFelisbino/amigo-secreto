@@ -204,3 +204,12 @@ body {
   background-color: #fff;
   color: #1875e8;
 }
+
+#deletar {
+  cursor: pointer;
+  padding: 0.1em 1em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: wheat;
+}

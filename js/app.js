@@ -23,9 +23,10 @@ function sortear() {
     for (let i = 0; i < amigos.length; i++) {
         
         if ( i == amigos.length - 1) {
-               sorteio.innerHTML = sorteio.innerHTML + amigos[i] + ' --> ' + amigos[0] + '<br>';
+               sorteio.innerHTML = sorteio.innerHTML + `<button id="deletar">${amigos[i]}</button>` + ' --> ' + `<button id="deletar">${amigos[0]}</button>` + '<br>';
+               
         } else {
-            sorteio.innerHTML = sorteio.innerHTML + amigos[i] + ' --> ' + amigos[i + 1] + '<br>';
+            sorteio.innerHTML = sorteio.innerHTML + `<button id="deletar">${amigos[i]}</button>` + ' --> ' + `<button id="deletar">${amigos[i + 1]}</button>` + '<br>';
         }
      
     }
